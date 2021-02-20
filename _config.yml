@@ -4,13 +4,6 @@ email: ""
 description: "Photo Journal"
 url: "https://moxpower.github.io"
 baseurl: "/moxpower.github.io"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
 share: true
 
 # Owner/author information
