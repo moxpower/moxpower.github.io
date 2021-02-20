@@ -4,7 +4,6 @@ email: ""
 description: "Photo Journal"
 url: "https://moxpower.github.io"
 baseurl: "/moxpower.github.io"
-share: true
 
 # Owner/author information
 owner:
