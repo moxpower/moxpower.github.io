@@ -22,6 +22,7 @@ body.fullscreen .position-absolute { color: #dddddd;  bottom: 0; left: 0; width:
 /*galleries adapted*/
 	.masonry-gallery .gallery-item { width: 47.5% !important; }
 	.fullscreen-gallery.kenburns-gallery canvas { position: relative; }
+    .fullscreen-gallery.kenburns-galleryd canvas { position: relative; }
 	.fullscreen-gallery .gallery-caption .entry-summary { padding-bottom: 1.5em; }
 	.vertical-gallery.gallery { height: 400px; margin-top: 2em; }
 	.vertical-gallery .gallery-icon { width: 90%; }
