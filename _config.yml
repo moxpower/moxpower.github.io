@@ -25,7 +25,7 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://moxpower.github.io/moxpower.github.io/gallery/"  
+  - Projects: "https://moxpower.github.io/moxpower.github.io/gallery/"  
 
 # All translation keys
 translations:
