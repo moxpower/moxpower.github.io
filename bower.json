@@ -1,9 +1,10 @@
 {
-  "name": "Maximilian Kohl",
+  "name": "photorama",
+  "description": "Photo Journal",
   "main": "index.html",
   "moduleType": [],
   "authors": [
-    "Maximilian Kohl"
+    "Anna Prigkipaki"
   ],
   "license": "Apache-2.0",
   "homepage": "",
