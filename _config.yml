@@ -1,6 +1,6 @@
 # Site settings
 title: Maximilian Kohl
-# description: "Photo Journal"
+description: "Photo Journal"
 url: "https://moxpower.github.io"
 baseurl: "/moxpower.github.io"
 share: false
@@ -25,7 +25,7 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://moxpwer.github.io/moxpower.github.io/gallery/"  
+  - GALLERY: "https://moxpower.github.io/moxpower.github.io/gallery/"  
 
 # All translation keys
 translations:
