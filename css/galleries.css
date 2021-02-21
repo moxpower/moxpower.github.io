@@ -64,6 +64,8 @@
 
 .fullscreen-gallery.kenburns-gallery .gallery-icon { display: none; }
 .fullscreen-gallery.kenburns-gallery canvas { z-index: -1; position: absolute; left: 0; top: 0; }
+.fullscreen-gallery.kenburns-galleryd .gallery-icon { display: none; }
+.fullscreen-gallery.kenburns-galleryd canvas { z-index: -1; position: absolute; left: 0; top: 0; }
 
 iframe#okplayer { min-width: 100%; min-height: 100%; }
 
