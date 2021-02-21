@@ -1,6 +1,6 @@
 # Site settings
-title: Maximilian Kohl
-description: "Photo Journal"
+# title: Portfolio
+description: "Maximilian Kohl"
 url: "https://moxpower.github.io"
 baseurl: "/moxpower.github.io"
 share: false
