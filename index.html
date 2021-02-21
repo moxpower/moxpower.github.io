@@ -20,6 +20,7 @@ images:
    gallery-folder: /projects/KM/
    gallery-name: Knowledge Management
    gallery-date: with Thinkstep
+personal-images:
  - image_path: /projects/LampWood/LampWood.JPG
    gallery-folder: /projects/LampWood/
    gallery-name: Wood Lamp
@@ -43,6 +44,7 @@ images:
 		<div class="wrapper">
 	
 			<h2>{{page.title}}</h2>
+      <!--<h2>Digital</h2> -->
 			
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
@@ -69,6 +71,34 @@ images:
 {% endfor %}		
 				
 			</div>
+
+		<!--	<h2>Analogue</h2> -->
+
+			<!-- Second Gallery __-->
+			<div class="gallery masonry-gallery">
+				
+        {% for personal-image in page.personal-images %}  	
+        
+                         <figure class="gallery-item">
+                                 <figure class="effect-selena">
+                  <header class='gallery-icon'>
+                   
+        <a href="{{ site.url }}{{ site.baseurl }}{{ personal-image.gallery-folder }}">
+        <img src="{{ site.url }}{{ site.baseurl }}{{ personal-image.image_path }}"></a>
+        
+                  </header>	
+                  <figcaption class='gallery-caption'>
+                    <div class="entry-summary">
+                      <h3>{{personal-image.gallery-name}}</h3>
+                      <p>{{personal-image.gallery-date}}</p>
+                    </div>
+                  </figcaption>
+                               </figure>
+                </figure>
+                      
+        {% endfor %}		
+                
+              </div>
 			
 		</div><!-- END .wrapper -->
 	</section>
