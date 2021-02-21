@@ -141,7 +141,7 @@ hr.smalls {
   }
 }
 .intro-header {
-  background: no-repeat center center;
+  background: no-repeat center top;
   background-color: black;
   background-attachment: scroll;
   -webkit-background-size: cover;
