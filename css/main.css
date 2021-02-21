@@ -48,6 +48,12 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+hr.smalls {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}
 .navbar-custom {
   background-color: transparent;
   position: absolute;
