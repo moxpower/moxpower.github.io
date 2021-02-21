@@ -41,14 +41,14 @@ blockquote {
   color: #808080;
   font-style: italic;
 }
-hr.smalls {
+hr.small {
   max-width: 100px;
   display: none;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
 }
-hr.small {
+hr.smalls {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
