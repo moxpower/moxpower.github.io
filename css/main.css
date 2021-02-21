@@ -223,6 +223,89 @@ hr.small {
     text-shadow: 1px 1px 4px #000;
   }
 }
+.intro-headers {
+  background: no-repeat center center;
+  background-color: black;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+.intro-headers .site-heading,
+.intro-headers .post-heading,
+.intro-headers .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-headers .site-heading,
+  .intro-headers .post-heading,
+  .intro-headers .page-heading {
+    padding: 150px 0;
+  }
+}
+.intro-headers .site-heading,
+.intro-headers .page-heading {
+  text-align: center;
+}
+.intro-headers .site-heading h1,
+.intro-headers .page-heading h1 {
+  margin-top: 0;
+  font-size: 50px;
+  text-shadow: 1px 1px 4px #000;
+}
+.intro-headers .site-heading .subheading,
+.intro-headers .page-heading .subheading {
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0;
+  text-shadow: 1px 1px 4px #000;
+}
+@media only screen and (min-width: 768px) {
+  .intro-headers .site-heading h1,
+  .intro-headers .page-heading h1 {
+    font-size: 80px;
+    text-shadow: 1px 1px 4px #000;
+  }
+}
+.intro-headers .post-heading h1 {
+  font-size: 35px;
+}
+.intro-headers .post-heading .subheading,
+.intro-headers .post-heading .meta {
+  line-height: 1.1;
+  display: block;
+}
+.intro-headers .post-heading .subheading {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 10px 0 30px;
+  font-weight: 600;
+  text-shadow: 1px 1px 4px #000;
+}
+.intro-headers .post-heading .meta {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  text-shadow: 1px 1px 4px #000;
+  font-size: 20px;
+}
+.intro-headers .post-heading .meta a {
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-headers .post-heading h1 {
+    font-size: 55px;
+  }
+  .intro-headers .post-heading .subheading {
+    font-size: 30px;
+    text-shadow: 1px 1px 4px #000;
+  }
+}
 .post-preview > a {
   color: #f5f5f5;
 }
