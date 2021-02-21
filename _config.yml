@@ -2,7 +2,7 @@
 title: Maximilian Kohl
 description: "Portfolio"
 url: "https://moxpower.github.io"
-baseurl: "/moxpower.github.io"
+# baseurl: "/moxpower.github.io"
 share: false
 
 # Owner/author information
