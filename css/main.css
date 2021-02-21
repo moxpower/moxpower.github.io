@@ -43,7 +43,6 @@ blockquote {
 }
 hr.small {
   max-width: 100px;
-  display: none;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
