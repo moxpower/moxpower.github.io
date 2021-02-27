@@ -49,6 +49,8 @@ hr.small {
   border-color: white;
 }
 hr.smalls {
+  margin-top: 4.6rem !important;
+  margin-bottom: 4.6rem !important;
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
@@ -174,7 +176,7 @@ hr.smalls {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 2.3rem;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
