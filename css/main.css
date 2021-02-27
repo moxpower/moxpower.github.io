@@ -181,6 +181,7 @@ hr.smalls {
   font-weight: 300;
   margin: 10px 0 0;
   text-shadow: 1px 1px 4px #000;
+  text-align: left;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
