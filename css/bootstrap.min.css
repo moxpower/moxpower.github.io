@@ -2719,6 +2719,7 @@ pre code {
     width: 75%
   }
   .col-lg-8 {
+    max-width: 720px;
     width: 66.66666667%
   }
   .col-lg-7 {
@@ -2833,7 +2834,6 @@ pre code {
     margin-left: 75%
   }
   .col-lg-offset-8 {
-    max-width: 720px;
     margin-left: 66.66666667%
   }
   .col-lg-offset-7 {
