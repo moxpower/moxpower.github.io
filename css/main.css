@@ -447,7 +447,7 @@ body {
   width: 128px;
   height: 128px;
   opacity: 1;
-  transition: all .2s;
+  transition: all .2s ;
 }
 .item blockquote {
   border-left: none;
