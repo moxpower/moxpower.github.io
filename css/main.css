@@ -417,7 +417,6 @@ body {
 }
 #quote-carousel {
   padding: 0 10px 30px 10px;
-  margin-top: 60px;
 }
 #quote-carousel .carousel-control {
   background: none;
@@ -429,7 +428,6 @@ body {
   position: relative;
   right: 50%;
   top: auto;
-  bottom: 0px;
   margin-top: 20px;
   margin-right: -19px;
 }
