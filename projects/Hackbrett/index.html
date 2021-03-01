@@ -1,0 +1,98 @@
+---
+layout: page
+title: "Concrete Lamp"
+description: "Building with concrete I follow four simple steps<br><br><ul><li>Envision how the concrete structure should look like 🔮</li><li>Build the cast</li><li>Pour wet concrete into the cast <- point of no return</li><li>Wait, then remove the cast</li></ul><br>This was my first project with concrete. So I spent much time researching which boards were applicable and which concrete recipes fitting. The reward of product was high as I enjoy seeing it every day next to my desk. The material ROI was not relevant to me here but quite high when comparing to options on the market."
+images:
+ - image_path: /projects/LampConcrete/LampConcrete1.JPG
+   caption: Vision sketch
+ - image_path: /projects/LampConcrete/LampConcrete2.JPG
+   caption: Cut boards for the cast
+ - image_path: /projects/LampConcrete/LampConcrete3.JPG
+   caption: Cast
+ - image_path: /projects/LampConcrete/LampConcrete4.png
+   caption: Cast filled with wet concrete
+ - image_path: /projects/LampConcrete/LampConcrete5.png
+   caption: Removing the inner boards
+ - image_path: /projects/LampConcrete/LampConcrete6.jpg
+   caption: Finished lamp frame
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+          type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+      image: {
+         titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+</body></html>
