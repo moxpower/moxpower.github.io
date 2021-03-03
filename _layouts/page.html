@@ -8,13 +8,13 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>{% if page.title == "Product Highlights" %}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}</h1>
-                    {% if page.title == "Product Highlights" %}
+                    <h1>{% if page.subtitle == "MainPage" %}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}</h1>
+                    {% if page.subtitle == "MainPage" %}
                     <hr class="small">
                     {% else %}
                     <hr class="smalls">
                     {% endif %}
-                    <span class="subheading">{{ page.description }}{% if page.title == "Hackbrett" %}<a href="/projects/Hackbrett/Hackbrett.mp3">♫ click here ♫</a>{% else %}{% endif %}</span>
+                    <span class="subheading">{{ page.description }}{% if page.title == "Hackbrett" %}<a href="/projects/Hackbrett/Hackbrett.mp3">♫ click here for a record I created ♫</a>{% else %}{% endif %}</span>
 
                 </div>
             </div>
